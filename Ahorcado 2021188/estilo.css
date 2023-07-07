@@ -1,0 +1,128 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.jaja{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto; 
+  }
+.jaja {
+  flex-wrap: nowrap !important;
+}
+
+.principal {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1.titulo {
+  text-align: center; 
+  font-family: Arial Black; 
+  font-weight: bold; font-size: 30px; 
+  background: #000000; 
+  -webkit-background-clip: text; 
+  -moz-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+  }
+
+@keyframes zoomInOut {
+  0% { transform: scale(0); }
+  50% { transform: scale(1); }
+  70% { transform: scale(1); }
+  100% { transform: scale(0); }
+}
+h2.palabra {
+  margin: 0 auto 25px auto;
+  text-align: center;
+  color: rgb(1, 2, 6);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.col {
+  width: 50%;
+  text-align: center;
+}
+
+#turnos h3 {
+  margin: auto;
+}
+h3  {
+   color: rgb(21, 7, 2);
+}
+.letra:disabled {
+  color: #00008B;
+  
+}
+picture {
+  position: fixed;
+}
+picture img {
+  position: absolute;
+  top: -200px;
+  left: -160px;
+  height: 350px;
+}
+
+
+#image5, #image4, #image3,
+#image2, #image1, #image0 {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.fade-in {
+  opacity: 1 !important; 
+}
+
+.letra {
+  padding: 15px 30px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 14px;
+  margin: 5px;
+}
+
+.letra {
+  border-color: #0f0f0f;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #1b60f4 inset, 0 0 0 0 #2a057b;
+  -webkit-transition: all 550ms ease-in-out;
+  transition: all 550ms ease-in-out;
+}
+
+.letra:hover {
+  background-color: #e011d9;
+  box-shadow: 0 0 10px 0 #34db6e inset, 0 0 10px 4px #05f6ee;
+}
